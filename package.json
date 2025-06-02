@@ -1,0 +1,34 @@
+{
+  "name": "io-env",
+  "version": "1.0.0-alpha.1",
+  "license": "MIT",
+  "description": "Manipulate env files preserving current format (line breaks, comments, etc)",
+  "author": {
+    "name": "Renato Ribeiro",
+    "email": "hi@rena.to"
+  },
+  "keywords": [],
+  "packageManager": "pnpm@10.8.0",
+  "main": "dist/index.mjs",
+  "exports": {
+    ".": "./dist/index.mjs"
+  },
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsdown src/*.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "release-it": "^19.0.3",
+    "tsdown": "^0.12.6",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
