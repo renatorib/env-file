@@ -1,6 +1,6 @@
 {
   "name": "io-env",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Manipulate env files preserving current format (line breaks, comments, etc)",
   "author": {
